@@ -638,7 +638,6 @@ img {
 /* 한빛인 소식 */
 
 #news {
-  height: 620px;
   width: 100%;
   background-color: white;
   position: relative;
@@ -646,21 +645,17 @@ img {
 
 .hb_news_container {
   width: 1328px;
-  height: 620px;
   background-color: white;
   margin: 0 auto;
-  padding: 64px 64px;
+  padding: 66px 64px 54px;
   box-sizing: border-box;
-  position: absolute;
-  z-index: 100;
-  left: calc(50% - 664px);
+  position: relative;
+  z-index: 10;
 }
 
 .hb_photo {
   width: 1200px;
-  height: 500px;
   background-color: white;
-  position: absolute;
 }
 
 .hb_photo > p {
@@ -705,12 +700,10 @@ img {
 
 .hb_photo_show {
   display: flex;
-  height: 358px;
 }
 
 .hb_photo_show > li {
   width: 380px;
-  height: 358px;
 }
 
 .hb_photo_show > li:not(:last-of-type) {
@@ -806,44 +799,36 @@ img {
   text-decoration: underline;
 }
 
-
-
-
-
 #quick_menu {
   width: 100%;
-  height: 540px;
   background-color: #eaeef2;
+  position: relative;
+  padding-top: 240px;
   margin-top: -240px;
-  position: absolute;
+  z-index: 2;
 }
 
 .quick_menu_container {
   width: 1200px;
-  height: 172px;
-  position: absolute;
-  bottom: 65px;
-  left: calc(50% - 600px);
-  padding: 0 60px;
+  padding: 50px 60px 50px 60px;
   box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
 }
 
 .quick_menu_show {
   width: 1080px;
-  height: 172px;
   overflow: hidden;
 }
 
 .quick_menu_slide {
   width: 1440px;
-  height: 172px;
   display: flex;
   position: relative;
 }
 
 .quick_menu_slide > li {
   width: calc(100% / 8);
-  height: 172px;
   display: flex;
   justify-content: center;
 }
@@ -872,6 +857,7 @@ img {
   display: block;
   font-size: 18px;
   text-align: center;
+  margin-top: 16px;
 }
 .qs_prev {
   position: absolute;
@@ -894,11 +880,10 @@ img {
   width: 1200px;
   height: auto;
   margin: 0 auto;
-  margin-top: 240px;
 }
 
 .list_tab_container {
-  padding: 130px 0 45px 0 ;
+  padding: 70px 0 45px 0 ;
   width: 1200px;
   height: 390px;
   box-sizing: border-box;
