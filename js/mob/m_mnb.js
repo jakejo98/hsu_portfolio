@@ -24,9 +24,11 @@ $(".mbl_box > ul > li > a").click(function(){
 $(".m_ham_static").click(function(){
   $(".mnb").animate({"right": 0}, 500);
   $(".mnb_shadow").css({"display":"block"});
+  $("body").css({"overflow":"hidden"})
 });
 
 $(".m_ham_active").click(function(){
   $(".mnb").animate({"right": -280}, 500);
   $(".mnb_shadow").css({"display":"none"});
+  $("body").css({"overflow":"visible"})
 })

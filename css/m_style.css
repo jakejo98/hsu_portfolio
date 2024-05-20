@@ -5,13 +5,12 @@
 
   body {
     width: 100%;
-    overflow-x: hidden;
   }
   /* 검색버튼 */
   .mnb {
     width: 280px;
     height: auto;
-    position: absolute;
+    position: fixed;
     right: -280px;
     top: 0;
     z-index: 15000;
